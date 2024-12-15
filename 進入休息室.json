@@ -1,0 +1,47 @@
+{
+  "公共區": {
+    "recognition": "OCR",
+    "action": "Click",
+    "next": "休息室",
+    "roi": [
+      1121,
+      312,
+      107,
+      52
+    ],
+    "expected": "公共區",
+    "target": [
+      1176,
+      336,
+      0,
+      0
+    ]
+  },
+  "休息室": {
+    "recognition": "OCR",
+    "action": "Click",
+    "next": "休息室.返回主頁",
+    "roi": [
+      135,
+      159,
+      84,
+      45
+    ],
+    "expected": "休息室",
+    "target": [
+      178,
+      180,
+      0,
+      0
+    ]
+  },
+  "休息室.返回主頁": {
+    "action": "Click",
+    "target": [
+      118,
+      39,
+      0,
+      0
+    ]
+  }
+}
